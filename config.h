@@ -5,9 +5,8 @@
 using namespace sf;
 
 // Window
-const int WINDOW_WIDTH = 1600;
-const int WINDOW_HEIGHT = 900;
-const int FPS = 60;
+const int WINDOW_WIDTH{1600};
+const int WINDOW_HEIGHT{900};
 const Color BACKGROUND_COLOR = Color(77,77,77); 
 
 #endif
