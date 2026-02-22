@@ -18,12 +18,12 @@ int main() {
     text.setFont(font);
     text.setString(windowTitle);
     text.setCharacterSize(56);
-
-    // Centrar horizontalmente
+    // Title centered
     float windowCenter = window.getSize().x / 2.0f;
     float textWidth = text.getLocalBounds().width;
     text.setPosition(windowCenter - textWidth / 2.0f, 20); // 20px desde arriba
 
+    // While main
     while(window.isOpen()) {
         Event event;
         while(window.pollEvent(event))
